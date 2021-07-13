@@ -1,11 +1,22 @@
 import "./styles.scss";
 import Logo from "../../assets/logo.webp";
+import { Link } from "react-router-dom";
+
 const header = () => {
   return (
     <header className="header">
       <div className="wrap">
         <div className="logo">
-          <img src={Logo} alt="Logo" />
+          <Link to="/">
+            <img src={Logo} alt="Logo" />
+          </Link>
+        </div>
+        <div className="callToActions">
+          <ul>
+            <li>
+              <Link to="register">Register</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
