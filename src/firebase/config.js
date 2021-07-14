@@ -1,9 +1,10 @@
+// firebase config
 export const firebaseConfig = {
-  apiKey: "AIzaSyDJ4PBtH1gJPoR1mUbHYcf06H3pe5wi44s",
-  authDomain: "whatsapp2-393d6.firebaseapp.com",
-  projectId: "whatsapp2-393d6",
-  storageBucket: "whatsapp2-393d6.appspot.com",
-  messagingSenderId: "732992383628",
-  appId: "1:732992383628:web:c73fb54591446af97929a9",
-  measurementId: "G-VCSQYF5YKZ",
+  apiKey: "AIzaSyA79CMworJjtFfim9mOyErUa1SbWCJA4hQ",
+  authDomain: "clothify-c564b.firebaseapp.com",
+  projectId: "clothify-c564b",
+  storageBucket: "clothify-c564b.appspot.com",
+  messagingSenderId: "916378165653",
+  appId: "1:916378165653:web:0f5bc32f2374dd3ec2169c",
+  measurementId: "G-VJK9C6R197",
 };

@@ -1,10 +1,14 @@
-import Footer from "../components/Footer";
-import Header from "./../components/Header";
-const MainLayout = (props) => {
+import React from 'react';
+import Header from './../components/Header';
+import Footer from './../components/Footer';
+
+const MainLayout = props => {
   return (
     <div>
       <Header {...props} />
-      <div className="main">{props.children}</div>
+      <div className="main">
+        {props.children}
+      </div>
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 .header {
   height: 6.5rem;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 
   .wrap {
     position: relative;
@@ -9,10 +9,9 @@
     margin: 0 auto;
 
     .logo {
-      width: 5rem;
+      width: 13.0rem;
       position: absolute;
-      top: 50%;
-      left: 50px;
+      top: 50%; left: 10px;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -31,8 +30,7 @@
       padding: 0;
       margin: 0;
 
-      ul,
-      ul li {
+      ul, ul li {
         padding: 0;
         margin: 0;
         height: 100%;
@@ -61,8 +59,7 @@
 
     .callToActions {
       position: absolute;
-      top: 50%;
-      right: 10px;
+      top: 50%; right: 10px;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -71,8 +68,7 @@
         display: none;
       }
 
-      ul,
-      li {
+      ul, li {
         margin: 0;
         padding: 0;
       }
@@ -86,8 +82,7 @@
           margin-right: 0;
         }
 
-        a,
-        span {
+        a, span {
           font-size: 1.8rem;
           line-height: 1;
           color: black;
@@ -95,9 +90,13 @@
           text-transform: uppercase;
           cursor: pointer;
         }
+
       }
+
     }
+
   }
+
 }
 
 .mobileMenu {
@@ -105,6 +104,7 @@
 }
 
 @media only screen and (max-width: 980px) {
+
   .mobileMenu {
     display: block;
   }
@@ -116,18 +116,19 @@
       }
 
       ul li {
+
         &.hideOnMobile {
           display: none;
         }
 
-        a,
-        span {
+        a, span {
           font-size: 0;
 
           i {
             font-size: 1.8rem;
           }
         }
+
       }
     }
 
@@ -158,5 +159,7 @@
         }
       }
     }
+
   }
+
 }

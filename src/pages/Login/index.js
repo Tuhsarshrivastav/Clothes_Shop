@@ -1,11 +1,9 @@
-import Signin from "../../components/SignIn/index";
-import "./styles.scss";
-const Login = () => {
-  return (
-    <>
-      <Signin />
-    </>
-  );
-};
+import React from 'react';
+import './styles.scss';
+import SignIn from './../../components/SignIn';
+
+const Login = props => {
+  return <SignIn />
+}
 
 export default Login;
